@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-style-easing",
+  "version": "1.0.1",
+  "description": "Grapesjs Style Easing",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ju99ernaut/grapesjs-style-easing.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^4.1.1"
+  },
+  "license": "MIT"
+}
